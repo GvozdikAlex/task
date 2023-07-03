@@ -1,5 +1,10 @@
+ul {
+  list-style-type: none;
+}
 .App {
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .App-logo {
@@ -35,4 +40,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.filter-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.btns-list {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.select {
+  width: 170px;
+  height: 30px;
+}
+
+.header-table {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: start;
+}
+
+.modal {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #d3d3d3;
+}
+
+.modal-wrap {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  background: white;
+}
+
+.modal-span {
+  margin-right: 50px;
+}
+
+.cross-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#btn-modal {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  width: 60px;
+  height: 60px;
+  font-size: xx-large;
 }
